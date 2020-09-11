@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Navbar from "./components/navbar/navbar";
 import Sidedrawer from "./components/sidedrawer/sidedrawer";
 import Backdrop from "./components/backdrop/backdrop";
+import Category from './components/categories/categories';
 
 class App extends Component {
   state = {
@@ -29,7 +30,9 @@ class App extends Component {
         <Navbar drawerClickHandler={this.drawertoggleclickhandler} />
         <Sidedrawer show={this.state.sidedraweroption} />;
         {backdrop}
+        
         <main style={{ marginTop: "64px" }}>
+        <Category />
           <p>Here starts the main content</p>
         </main>
       </div>

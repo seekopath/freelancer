@@ -3,13 +3,13 @@ import './navbar.css';
 import Togglebutton from '../sidedrawer/togglebutton';
 
 const Navbar = props => (
-    <header className="navbar">
+    <header className="navbarr">
         <nav className="navbar_navigation">
             <div>
                 <Togglebutton click={props.drawerClickHandler} />    
             </div>
             <div className="navbar_logo"><a href="/">THE LOGO</a></div>
-            <div className="spacer"></div>
+            <div className="spacers"></div>
             <div className="navbar_navigation-items">
                 <ul>
                     <li><a href="/">Home</a></li>

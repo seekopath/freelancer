@@ -1,7 +1,8 @@
-.navbar{
+.navbarr{
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 50;
     height: 56px;
     width: 100%;
     background: purple;
@@ -12,7 +13,7 @@
     height: 100%;
     padding: 0 1rem;
 }
-.spacer{
+.spacers{
     flex: 1;
 }
 .navbar_logo{
