@@ -8,14 +8,14 @@ const Category = (props) => {
   return (
     <Container className="containerr">
         <Row>
-            <Col md={3}><Card name="Competitions" /></Col>
-            <Col md={3}><Card name="Competitions" /></Col>
-            <Col md={3}><Card name="Competitions" /></Col>
-            <Col md={3}><Card name="Competitions" /></Col>
-            <Col md={3}><Card name="Competitions" /></Col>
-            <Col md={3}><Card name="Competitions" /></Col>
-            <Col md={3}><Card name="Competitions" /></Col>
-            <Col md={3}><Card name="Competitions" /></Col>
+            <Col md={3} xs={6}><Card name="Competitions" /></Col>
+            <Col md={3} xs={6}><Card name="Competitions" /></Col>
+            <Col md={3} xs={6}><Card name="Competitions" /></Col>
+            <Col md={3} xs={6}><Card name="Competitions" /></Col>
+            <Col md={3} xs={6}><Card name="Competitions" /></Col>
+            <Col md={3} xs={6}><Card name="Competitions" /></Col>
+            <Col md={3} xs={6}><Card name="Competitions" /></Col>
+            <Col md={3} xs={6}><Card name="Competitions" /></Col>
         </Row>
     </Container>
   );
