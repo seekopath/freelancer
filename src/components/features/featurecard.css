@@ -13,9 +13,27 @@
 }
 
 .feature-card_description{
-    padding: 4rem;
+    padding: 2.5rem;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+@media (max-width: 425px) {
+    .feature_card_blank{
+        display: none;
+    }
+    .feature-card_description{
+        padding: 1.5rem;
+    }
+    h4{
+        font-size: 15px;
+    }
+    h6{
+        font-size: 10px;
+    }
+    .feature-card{
+        border-bottom: 0.1px solid rgb(221, 220, 220);
+    }
 }
