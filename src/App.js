@@ -5,6 +5,7 @@ import Backdrop from "./components/backdrop/backdrop";
 import Category from "./components/categories/categories";
 import Feature from "./components/features/feature";
 import Carousell from "./components/carousel/carousel";
+import Hello from './components/featuredjobs/featuredjobs';
 import './App.css';
 
 class App extends Component {
@@ -36,6 +37,7 @@ class App extends Component {
         <main className="main">
           <Carousell />
           <Category />
+          <Hello />
           <Feature />
           <p>Here starts the main content</p>
         </main>

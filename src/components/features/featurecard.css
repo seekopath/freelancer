@@ -1,7 +1,5 @@
-
-
 .feature-card{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     width: 100%;
     margin: 0;
     height: 40%;
@@ -9,7 +7,7 @@
 
 .feature-card_blank {
     width: 100%;
-    background-color: rgb(105, 102, 105);
+    background-color:rgb(124, 124, 255);
 }
 
 .feature-card_description{
@@ -19,6 +17,10 @@
     flex-direction: column;
     align-items: center;
 }
+
+/* .feature-card_heading {
+    color: black;
+} */
 
 @media (max-width: 425px) {
     .feature_card_blank{
@@ -34,6 +36,6 @@
         font-size: 10px;
     }
     .feature-card{
-        border-bottom: 0.1px solid rgb(221, 220, 220);
+        border-bottom: 0.1px solid rgb(216, 216, 216);
     }
 }

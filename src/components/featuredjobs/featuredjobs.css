@@ -1,0 +1,29 @@
+.containerr{
+    background-color: #f4f6ff;
+    margin-left: auto;
+    margin-right: auto;
+     /* text-align: center;  */
+     /* max-width: 1160px;  */
+  }
+  
+  .item{
+    cursor: pointer;
+    /* padding-top: 10px;  */
+    width: 295px !important;
+  } 
+  
+  .card{
+    border-radius: 8px;
+      background: #fff;
+      box-shadow: 0 2px 5px rgba(0,0,0,.1);
+  }
+  
+  .footer-content{
+    padding-top: 25px;
+    color: #666;
+  }
+  
+  .bookmark-views{
+    text-align: center;
+    justify-content: center;
+  }
