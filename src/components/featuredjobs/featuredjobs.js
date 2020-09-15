@@ -31,22 +31,22 @@ export class Hello extends React.Component{
   render()
   {
     return (
-      <div class="containerr">
+      <div className="containerr">
     <OwlCarousel
     className="owl-theme"
 
     {...options}
 >
 
-  <div class="item">
-  <Card class="card">
+  <div className="item">
+  <Card className="card">
     <Card.Img variant="top" src="/assets/img_card.png" />
     <Card.Body>
       <Card.Title>Card title</Card.Title>
       <Card.Text>
         #Some random text
       </Card.Text>
-      <div class="footer-content">
+      <div className="footer-content">
         <Row>
           <Col>
           <p>306 registered</p>
@@ -69,7 +69,7 @@ export class Hello extends React.Component{
     
   </Card>
   </div>
-  <div class="item">
+  <div className="item">
   <Card>
     <Card.Img variant="top" src="/assets/img1_card.jpg" />
     <Card.Body>
@@ -77,7 +77,7 @@ export class Hello extends React.Component{
       <Card.Text>
         #Some random text
       </Card.Text>
-      <div class="footer-content">
+      <div className="footer-content">
         <Row>
           <Col>
           <p>306 registered</p>
@@ -100,7 +100,7 @@ export class Hello extends React.Component{
     
   </Card>
   </div>
-  <div class="item">
+  <div className="item">
   <Card>
     <Card.Img variant="top" src="/assets/img3_card.jpg" />
     <Card.Body>
@@ -108,7 +108,7 @@ export class Hello extends React.Component{
       <Card.Text>
         #Some random text
       </Card.Text>
-      <div class="footer-content">
+      <div className="footer-content">
         <Row>
           <Col>
           <p>306 registered</p>
@@ -131,7 +131,7 @@ export class Hello extends React.Component{
     
   </Card>
   </div>
-  <div class="item">
+  <div className="item">
   <Card>
     <Card.Img variant="top" src="/assets/img2_card.png" />
     <Card.Body>
@@ -139,7 +139,7 @@ export class Hello extends React.Component{
       <Card.Text>
         #Some random text
       </Card.Text>
-      <div class="footer-content">
+      <div className="footer-content">
         <Row>
           <Col>
           <p>306 registered</p>
@@ -200,7 +200,7 @@ export class Hello extends React.Component{
   }
 }
 // ReactDOM.render(<Hello/>, document.getElementById('root'));
-
 export default Hello;
+
 
 

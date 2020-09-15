@@ -6,6 +6,7 @@
     height: 56px;
     width: 100%;
     background: rgb(255, 255, 255);
+    opacity: 0.9;
 }
 .navbar_navigation {
     display: flex;
@@ -28,6 +29,9 @@
     margin: 0;
     padding: 0;
     display: flex;
+    align-items: center;
+    font-weight: normal;
+    font-size: 17px;
 }
 .navbar_navigation-items li {
     color: blue;

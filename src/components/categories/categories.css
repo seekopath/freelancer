@@ -1,5 +1,9 @@
+
 .containerr{
     z-index: 40;
     padding: 2rem;
 }
 
+.col-xs-6{
+    padding: 0;
+}

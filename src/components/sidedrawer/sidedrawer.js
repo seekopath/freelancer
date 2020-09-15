@@ -27,6 +27,9 @@ const Sidedrawer = (props) => {
         <li>
           <a href="/services">Contact us</a>
         </li>
+        <li>
+          <a href="/signin">SignIn</a>
+        </li>
       </ul>
     </nav>
   );
