@@ -5,6 +5,7 @@ import Backdrop from "./components/backdrop/backdrop";
 import App from "./App";
 import { BrowserRouter, Route } from "react-router-dom";
 import SignIn from "./components/signin/signin";
+import Dashboard from './components/dashboard/dashboard';
 
 class Routes extends Component {
     state = {
@@ -36,6 +37,9 @@ class Routes extends Component {
         </Route>
         <Route path="/signin">
           <SignIn />
+        </Route>
+        <Route path="/dashboard">
+            <Dashboard />
         </Route>
       </BrowserRouter>
     );
