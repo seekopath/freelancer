@@ -29,10 +29,10 @@ class Routes extends Component {
     }
     return (
       <BrowserRouter>
-        <Navbar drawerClickHandler={this.drawertoggleclickhandler} />
-        <Sidedrawer show={this.state.sidedraweroption} />
-        {backdrop}
-        <Route exact path="/">
+          <Route exact path="/">
+          <Navbar drawerClickHandler={this.drawertoggleclickhandler} />
+          <Sidedrawer show={this.state.sidedraweroption} />
+          {backdrop}
           <App />
         </Route>
         <Route path="/signin">

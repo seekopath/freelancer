@@ -1,11 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Card from 'react-bootstrap/Card';
-import { Container, Row, Col, Button} from 'react-bootstrap';
+import { Row, Col, Button} from 'react-bootstrap';
 import './featuredjobs.css'
 const options = {
   items:4,
@@ -199,7 +198,6 @@ export class Hello extends React.Component{
     )
   }
 }
-// ReactDOM.render(<Hello/>, document.getElementById('root'));
 export default Hello;
 
 

@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
@@ -49,6 +48,5 @@ class Carousell extends React.Component{
     )
   }
 }
-// ReactDOM.render(<Carousell />, document.getElementById('root'));
 
 export default Carousell;

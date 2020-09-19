@@ -1,4 +1,4 @@
-.feature{
+/* .feature{
     background-color: rgba(190, 190, 190, 0.747);
     display: flex;
     flex-direction: column;
@@ -31,5 +31,17 @@
     .feature, .feature_card {
         padding: 0.5rem;
     }
-}
+} */
 
+
+.card{
+    margin-bottom: 10px;
+    border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0,0,0,.35);
+  text-align: center;
+  
+  }
+  
+  .image{
+    margin-bottom: 15px;
+  }

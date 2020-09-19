@@ -1,3 +1,15 @@
-.dashboard {
-    margin-top: 56px;
+.dashboardfeaturedheadings{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f4f6ff;
+    padding: 1rem 1rem 0 1rem;
+}
+.dashboardfeaturedheadings_heading{
+    font-weight: 600;
+    font-size: 23px;
+}
+.dashboardcategoriescarousel{
+    padding: 0rem;
+    margin: 0rem 0rem;
 }

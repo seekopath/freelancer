@@ -1,7 +1,7 @@
 import React from 'react';
 import './card.css';
 
-const Card = props => {
+const Card = (props) => {
     return (
         <div className="cardd">
             <img src="https://d8it4huxumps7.cloudfront.net/uploads/images/d2c-images/competitions.svg" alt="smiley face" />

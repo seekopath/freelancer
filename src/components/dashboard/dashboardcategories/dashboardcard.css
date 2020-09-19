@@ -1,0 +1,21 @@
+.dashboardcard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 2rem;
+    margin: 2px;
+}
+.dashboardcard:hover {
+    box-shadow: 0px 0px 20px -5px rgba(0,0,0,0.75);
+}
+
+.dashboardcard img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 7px;
+}
+.dashboardcard_heading {
+    font-size: 12px;
+}

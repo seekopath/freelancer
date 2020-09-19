@@ -1,0 +1,15 @@
+.dashboardsearchbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+}
+.dashboardsearchbarspacers{
+    flex: 1;
+}
+.dashboardsearch{
+    background-color: rgb(208, 220, 226);
+    display: flex;
+    flex-direction: row;
+}

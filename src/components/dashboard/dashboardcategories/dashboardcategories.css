@@ -1,0 +1,9 @@
+.dashboardcategories_container{
+    z-index: 40;
+    padding: 1rem;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    overflow: auto;
+}
+
