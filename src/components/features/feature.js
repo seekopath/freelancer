@@ -22,8 +22,8 @@ import {Card, Row, Col} from 'react-bootstrap'
 export default class Feature extends React.Component{
     render(){
       return(
-        <section className="container">
-          <h1 style={{marginLeft:"32%"}}>How It Works</h1>
+        <section className="container" style={{marginBottom:"10px"}}>
+          <h1 style={{textAlign:"center", marginBottom:"10px"}} >How It Works</h1>
           <Row>
               <Col md={3} xs={12} className="cards">
               <Card class="card">

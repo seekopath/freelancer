@@ -12,6 +12,7 @@ import Grid from '@material-ui/core/Grid';
 import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
+import axios from 'axios';
 
 
 function Copyright() {
@@ -73,7 +74,7 @@ function SignIn() {
           <Typography component="h1" variant="h5">
             Sign in
           </Typography>
-          <form className={classes.form} noValidate>
+          <form className={classes.form} noValidate onSubmit={(e) => login(e)}>
             <TextField
               variant="outlined"
               margin="normal"
@@ -116,7 +117,7 @@ function SignIn() {
                 </Link>
               </Grid>
               <Grid item>
-                <Link href="#" variant="body2">
+                <Link href="/signup" variant="body2">
                   {"Don't have an account? Sign Up"}
                 </Link>
               </Grid>
@@ -129,6 +130,21 @@ function SignIn() {
       </Grid>
     </Grid>
   );
+}
+
+function login(e) {
+    e.preventDefault();
+    let request = {
+        email: document.getElementById('email').value,
+        password: document.getElementById('password').value
+    }
+    axios.post('https://wireframe167.herokuapp.com/login',request)
+    .then(resp => {
+        alert(resp.data.message);
+    })
+    .catch( err => {
+        console.log(err);
+    })
 }
 
 export default SignIn;
