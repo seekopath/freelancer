@@ -11,8 +11,8 @@ import Button from "@material-ui/core/Button";
 export default class Dashboard extends React.Component {
     render(){
         return (
-            <div>
-                <Dashboardsearchbar />
+            <div className="dashboard">
+                <Dashboardsearchbar />       
                 <Dashboardcarousel />
                 <Dashboardcategories />
                 <div className="dashboardfeaturedheadings">

@@ -6,7 +6,8 @@ import App from "./App";
 import { BrowserRouter, Route } from "react-router-dom";
 import SignIn from "./components/signin/signin";
 import SignUp from "./components/signup/signup";
-import Dashboard from './components/dashboard/dashboard';
+import Dashboard from './components/dashboard/dashboard'; 
+import Dashboarduserprofile from './components/dashboard/dashboardprofile/dashboardprofile'; 
 
 class Routes extends Component {
     state = {
@@ -44,6 +45,9 @@ class Routes extends Component {
         </Route>
         <Route path="/dashboard">
           <Dashboard />
+        </Route>
+        <Route path="/profile">
+          <Dashboarduserprofile />
         </Route>
       </BrowserRouter>
     );

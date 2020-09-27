@@ -1,0 +1,129 @@
+.dashboard-profile{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(241, 252, 251);
+}
+
+.dashboard-profile-sidebar {
+    background-color: white;
+    margin-top: 3.72rem;
+    box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.75);
+    width: 30%;
+    height: 111vh;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.dashboard-profile-sidebar-list{
+    margin: 1rem 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.dashboard-profile-sidebar-list-items{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.dashboard-profile-sidebar-list-item{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: start;
+    align-items: flex-start;
+    padding: 1rem;
+    width: 100%;
+}
+
+.dashboard-profile-sidebar-list-item:hover {
+    background-color: rgb(204, 236, 255);
+}
+
+.dashboard-profile-sidebar-list-item span{
+    font-size: 20px;
+    margin-left: 1rem;
+    font-weight: 500;
+    color: teal;
+}
+
+.dashboard-profile-sidebar-list-items-name {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.dashboard-profile-sidebar-list-items img {
+    width: 30%;
+    height: 30%;
+}
+
+.dashboard-profile-main {
+    margin-top: 5rem;
+    margin-left: 1rem;
+}
+
+.dashboard-profile-main-about{
+    padding: 3rem;
+    box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.75);
+    width: 130vh;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.dashboard-profile-main-about-form {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.dashboard-profile-main-about-form-fields {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+}
+
+.dashboard-profile-main-about-form-fields input {
+    width: 100%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.dashboard-profile-main-password {
+    padding: 3rem;
+    box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.75);
+    width: 130vh;
+    border-radius: 10px;
+    background-color: white;
+    margin: 10px 0;
+}
+
+.dashboard-profile-main-password-button {
+    border: none;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+    border-radius: 5px;
+}
+  
+.dashboard-profile-main-password-button:hover {
+    background-color: #008CBA;
+    color: white;
+  }

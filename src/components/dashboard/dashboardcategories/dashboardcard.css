@@ -5,10 +5,13 @@
     justify-content: center;
     width: 100%;
     padding: 2rem;
-    margin: 2px;
+    margin: 0 5px;
+    
 }
 .dashboardcard:hover {
-    box-shadow: 0px 0px 20px -5px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 20px -5px rgb(219, 219, 255);
+    border: 1px solid rgb(219, 219, 255);
+    
 }
 
 .dashboardcard img {
@@ -18,4 +21,13 @@
 }
 .dashboardcard_heading {
     font-size: 12px;
+}
+
+@media (min-width: 768px) {
+    .dashboardcard_heading {
+        font-size: 21px;
+    }
+    .dashboardcard img{
+        height: 5rem;
+    }
 }
