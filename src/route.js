@@ -8,6 +8,7 @@ import SignIn from "./components/signin/signin";
 import SignUp from "./components/signup/signup";
 import Dashboard from './components/dashboard/dashboard'; 
 import Dashboarduserprofile from './components/dashboard/dashboardprofile/dashboardprofile'; 
+import Category from './components/category/category';
 
 class Routes extends Component {
     state = {
@@ -48,6 +49,9 @@ class Routes extends Component {
         </Route>
         <Route path="/profile">
           <Dashboarduserprofile />
+        </Route>
+        <Route path="/category">
+          <Category />
         </Route>
       </BrowserRouter>
     );
